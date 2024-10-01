@@ -173,7 +173,7 @@ ul {
 @media screen and (min-width: 768px) {
   .header__nav-list-group {
     -moz-column-gap: 35px;
-         column-gap: 35px;
+    column-gap: 35px;
     height: 100%;
     padding-right: 18px;
     line-height: 1;
@@ -254,16 +254,9 @@ ul {
   font-family: "Poppins", system-ui;
   font-weight: 600;
   font-style: italic;
-  font-size: 90px;
   color: #fff;
   white-space: nowrap;
-  bottom: 8.5vh;
-}
-@media screen and (max-width: 767px) {
-  .banner__txt {
-    font-size: 50px;
-    bottom: 1vh;
-  }
+  font-size: clamp(40px, 1vw, 90px);
 }
 .banner .banner__img {
   background-color: #191970;
@@ -401,7 +394,7 @@ ul {
 .service__item--group {
   display: flex;
   -moz-column-gap: 20px;
-       column-gap: 20px;
+  column-gap: 20px;
 }
 @media screen and (max-width: 767px) {
   .service__item--group {
@@ -460,7 +453,7 @@ ul {
   width: 300px;
   height: auto;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .news__date {
@@ -769,8 +762,8 @@ form {
   margin-left: 20px;
 }
 
-input[type=text],
-input[type=email] {
+input[type="text"],
+input[type="email"] {
   border: solid 1px #aaa;
   border-radius: 5px;
   padding: 10px;
@@ -779,8 +772,8 @@ input[type=email] {
 
 select {
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   cursor: pointer;
   border: solid 1px #aaa;
   border-radius: 5px;
@@ -817,4 +810,4 @@ textarea {
   background-position: center;
   padding-bottom: 50px;
   background-size: cover;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
